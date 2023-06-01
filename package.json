@@ -1,0 +1,22 @@
+{
+  "name": "cypress-challenge",
+  "version": "1.0.0",
+  "description": "This is a cypress automation framework to do the challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santirogu/cypress-challenge.git"
+  },
+  "author": "Santiago Rodriguez Gutierrez (santiagorock000@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santirogu/cypress-challenge/issues"
+  },
+  "homepage": "https://github.com/santirogu/cypress-challenge#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
