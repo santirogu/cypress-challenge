@@ -1,0 +1,6 @@
+{
+    "emailPhoneInput": "[data-test=\"input-username\"]",
+    "passwordInput": "[data-test=\"input-password\"]",
+    "signInButton": "[data-test=\"control-submit\"]",
+    "errorUsernameLabel": "[data-test=\"error-username\"]"
+}
