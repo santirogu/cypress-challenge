@@ -1,0 +1,12 @@
+{
+    "emailInput": "[data-test=\"input-email\"]",
+    "termsCheckbox": ".input__wrapper > label",
+    "currencySelect": ".input__wrapper > .selectric-wrapper > .selectric",
+    "currencyListSelect": ".selectric-items",
+    "passwordInput": "[data-test=\"input-password\"]",
+    "reenterPasswordInput": "[data-test=\"input-password_confirmation\"]",
+    "noBonusOption": ":nth-child(2) > .special-radio__label",
+    "createAccountButton": "[data-test=\"control-submit\"]",
+    "alreadyHaveAccountButton": ".form__addition > a",
+    "congratulationsLabel": ".notification__title"
+}

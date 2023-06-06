@@ -1,0 +1,8 @@
+{
+    "contentModal": ".modal__content",
+    "gotItButton": ".modal__buttons > .button--t1",
+    "signupButton": "[data-test='nav-reg-head']",
+    "signinButton": "div.button",
+    "signinOptionButton": "[data-test='nav-login-head']",
+    "loader": ".loader"
+}

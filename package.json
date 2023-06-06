@@ -4,7 +4,11 @@
   "description": "This is a cypress automation framework to do the challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,11 @@
   },
   "homepage": "https://github.com/santirogu/cypress-challenge#readme",
   "devDependencies": {
-    "cypress": "^12.13.0"
+    "@types/jest": "^29.5.2",
+    "cypress": "^12.13.0",
+    "typescript": "4.2.4",
+    "@nrwl/cli": "15.9.3",
+    "@nrwl/cypress": "16.3.0",
+    "@nrwl/node": "16.3.0"
   }
 }
